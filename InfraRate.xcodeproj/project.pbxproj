@@ -14,6 +14,8 @@
 		04A317201FEA9AF700C99A32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04A3171E1FEA9AF700C99A32 /* LaunchScreen.storyboard */; };
 		04A3172B1FEA9AF800C99A32 /* InfraRateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A3172A1FEA9AF800C99A32 /* InfraRateTests.swift */; };
 		04A317361FEA9AF800C99A32 /* InfraRateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A317351FEA9AF800C99A32 /* InfraRateUITests.swift */; };
+		04A317441FEAB23400C99A32 /* IRHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A317431FEAB23400C99A32 /* IRHomeViewController.swift */; };
+		04A317461FEABBD400C99A32 /* IRLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A317451FEABBD400C99A32 /* IRLoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		04A317311FEA9AF800C99A32 /* InfraRateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InfraRateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04A317351FEA9AF800C99A32 /* InfraRateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfraRateUITests.swift; sourceTree = "<group>"; };
 		04A317371FEA9AF800C99A32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04A317431FEAB23400C99A32 /* IRHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IRHomeViewController.swift; sourceTree = "<group>"; };
+		04A317451FEABBD400C99A32 /* IRLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IRLoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				04A3171C1FEA9AF700C99A32 /* Assets.xcassets */,
 				04A3171E1FEA9AF700C99A32 /* LaunchScreen.storyboard */,
 				04A317211FEA9AF700C99A32 /* Info.plist */,
+				04A317431FEAB23400C99A32 /* IRHomeViewController.swift */,
+				04A317451FEABBD400C99A32 /* IRLoginViewController.swift */,
 			);
 			path = InfraRate;
 			sourceTree = "<group>";
@@ -260,7 +266,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				04A317181FEA9AF700C99A32 /* ViewController.swift in Sources */,
+				04A317461FEABBD400C99A32 /* IRLoginViewController.swift in Sources */,
 				04A317161FEA9AF700C99A32 /* AppDelegate.swift in Sources */,
+				04A317441FEAB23400C99A32 /* IRHomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
